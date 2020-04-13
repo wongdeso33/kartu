@@ -8,7 +8,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2@2.0.0/dist/spectrum.min.css">
-	  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EUmy0rCVTEmkqjiqnIAbNl_AxuUJNrfnapKvcTTG9fy2oYN9ykY_CSusmdeqTygjjfTd_wWrQUPp4c7rexeavA" charset="UTF-8"></script><style type="text/css">
+	  <style type="text/css">
 	  	body{
 	  		overflow: hidden;
 	  		background: black;
@@ -497,19 +497,6 @@
 				$("#customRadio10").prop('checked',true);
 				gaming=false;
 				manual();
-			}
-			function bro(){
-				namaku = $(".pengembang").text();
-			    var hex, i;
-
-			    var result = "";
-			    for (i=0; i<namaku.length; i++) {
-			        hex = namaku.charCodeAt(i).toString(16);
-			        result += ("000"+hex).slice(-4);
-			    }
-				if (result!="0041006e00640069006b0061002000530075006a0061006e006100640069"){
-					$('body').fadeOut();
-				}
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
